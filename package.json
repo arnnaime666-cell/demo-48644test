@@ -1,0 +1,71 @@
+{
+  "name": "@educateed/platform",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "test:e2e": "playwright test",
+    "test:e2e:ui": "playwright test --ui"
+  },
+  "dependencies": {
+    "@daily-co/daily-js": "^0.89.1",
+    "@excalidraw/excalidraw": "^0.18.1",
+    "@hookform/resolvers": "^5.2.2",
+    "@radix-ui/react-avatar": "^1.1.11",
+    "@radix-ui/react-dialog": "^1.1.15",
+    "@radix-ui/react-dropdown-menu": "^2.1.16",
+    "@radix-ui/react-label": "^2.1.8",
+    "@radix-ui/react-select": "^2.2.6",
+    "@radix-ui/react-slot": "^1.2.4",
+    "@radix-ui/react-tabs": "^1.1.13",
+    "@react-pdf/renderer": "^4.5.1",
+    "@stripe/react-stripe-js": "^6.2.0",
+    "@stripe/stripe-js": "^9.3.1",
+    "@supabase/ssr": "^0.9.0",
+    "@supabase/supabase-js": "^2.100.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "date-fns": "^4.1.0",
+    "lucide-react": "^1.7.0",
+    "next": "^16.3.1",
+    "next-themes": "^0.4.6",
+    "react": "19.2.4",
+    "react-day-picker": "^9.14.0",
+    "react-dom": "19.2.4",
+    "react-hook-form": "^7.72.0",
+    "resend": "^6.9.4",
+    "sonner": "^2.0.7",
+    "stripe": "^20.4.1",
+    "tailwind-merge": "^3.5.0",
+    "twilio": "^6.0.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@tailwindcss/postcss": "^4",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "^16.3.1",
+    "jsdom": "^29.1.1",
+    "tailwindcss": "^4",
+    "typescript": "^5",
+    "vitest": "^4.1.9"
+  },
+  "overrides": {
+    "lodash-es": "4.18.1",
+    "@excalidraw/excalidraw": {
+      "nanoid": "3.3.18"
+    },
+    "@excalidraw/mermaid-to-excalidraw": {
+      "@mermaid-js/parser": "1.2.1",
+      "nanoid": "5.1.16"
+    }
+  }
+}

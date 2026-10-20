@@ -1,0 +1,12 @@
+{
+  "crons": [
+    {
+      "path": "/api/cron/reapplication-check",
+      "schedule": "0 9 * * *"
+    },
+    {
+      "path": "/api/sessions/process-payouts",
+      "schedule": "5 1 * * *"
+    }
+  ]
+}
